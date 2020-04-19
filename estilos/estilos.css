@@ -1,0 +1,531 @@
+body
+{
+	margin: 0;
+	font-family: 'lato';
+	background: white;
+}
+header
+{
+	background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9));
+	height: 100vh;
+	background-size: cover;
+}
+
+
+header .logo
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: #000;
+	margin-left: 70px;
+	color: #000;
+	font-size: 40px;
+
+}
+
+header .contenedor
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+header ul
+{
+	display: flex;
+	margin-top: 50px;
+}
+
+header ul li
+{
+	list-style: none;
+	margin-right: 50px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.contenedor
+{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+
+#contenedor-titulo-flex
+{
+	max-width: 1580px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+}
+
+h1
+{
+	background-image: url(imagenes/rojo.jfif), linear-gradient(237deg,#cab1beb8 0%, #07fefe 100%);
+	font-size: 60px;
+	color: #fff;
+	background-position: revert;
+	margin-left: -298px;
+	margin-right:-298px;
+	margin-top: -110px;
+}
+
+h2
+{
+	font-size: 25px;
+	color: #000; 
+}
+
+.contenedor-titulo
+{
+	text-align: center;
+	font-weight: bold;
+}
+.contenedor-titulo a, #qs a, #consultas input[type="submit"]
+{
+	font-size: 14px;
+	color: #fff;
+	background: #253547;
+	padding: 14px 18px;
+	width: 80px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+
+
+nav ul li a
+{
+	color: #000;
+}
+
+/*QUIENES SOMOS*/
+
+h3
+{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal; 
+}
+
+#qs .contenedor-qs
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#qs .texto
+{
+	width: 42%;
+}
+
+/*TRATAMIENTOS*/
+
+.contenedor-servicios
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #FFFFFF;
+}
+
+.servicio
+{
+	width: 24%;
+	padding: 34px 30px 38px 30px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	position: relative;
+}
+
+.servicio h4
+{
+	font-size: 30px;
+	margin: 0;
+}
+
+.servicio p
+{
+	margin-bottom: 20px;
+}
+
+.contenedor-servicios .rosa
+{
+	background-image: linear-gradient(to top, #ff66efe6,#ff66efe6);
+	box-shadow: 0 12px 30px 0 rgba(80,85,223,.37);
+}
+
+.contenedor-servicios .azul
+{
+	background-image: linear-gradient(to top, #40a8f9, #5cb8ff);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.icono
+{
+	float: right;
+}
+
+/*Trabajos*/
+
+button.owl-prev, button.owl-next
+{
+	font-size: 40px !important;
+}
+
+span
+{
+	color: #000000
+}
+
+/*ZONAS*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+/*CIRUJANOS*/
+
+.contenedor-cirujanos
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cirujanos .item
+{
+	width: 30%;
+	text-align: center;
+}
+
+#cirujanos ul li
+{
+	list-style: none;
+}
+
+#cirujanos ul li:nth-child(2)
+{
+	font-weight: bold;
+	font-size: 19px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#cirujanos ul li:nth-child(3)
+{
+	line-height: 31px;
+}
+
+/*CONSULTA*/
+
+#consultas form
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 77%;
+	margin: auto;
+}
+
+input[type="text"], input [type="email"]
+{
+	width: 49%;
+	margin-bottom: 15px;
+	padding: 18px 0;
+	border: 0;
+
+	border-bottom: 1px solid #000000;
+	font-size: 17px;
+}
+
+textarea
+{
+	padding: 18px 0;
+	border: 0;
+	border-bottom: 1px solid #000000;
+	font-size: 17px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#consultas input[type="submit"]
+{
+	background: #FFFFFF;
+	width: 166px;
+	margin: auto;
+	color: #000;
+}
+
+/*CONTACTO*/
+
+{
+	background: #F9FAFC;
+}
+
+#contacto .contenedor-contacto
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#contacto .contactos
+{
+	width: 30%;
+	box-shadow: 1px 1px 14px #ccc
+}
+
+#contacto .contenido
+{
+	background: #FFFFFF;
+	padding: 20px;
+	text-align: center;
+
+}
+
+#contacto h4
+{
+	font-size: 15px;
+	margin-bottom: 15px;
+	margin:0;
+}
+
+#contacto p
+{
+	color: #5A6159
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#contacto img
+{
+	width: 190px;
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	display:block;
+}
+
+footer
+{
+	background: #2F2F2F;
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer .contenedor
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer img
+{
+	margin: 0 40px;
+	transform: rotate(0);
+	transition: 0.4s;
+}
+
+footer img:hover
+{
+	transform: rotate(360deg);
+	transition: 0.4s;
+}
+
+footer p
+{
+	color: #FFFFFF;
+	margin-top: 40px;
+}
+
+#whatsapp
+{
+	position: fixed;
+	top: 80%;
+	left: 1%;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+#contacto, #consultas, #cirujanos, #qs, #servicios
+{
+	padding: 90px 0;
+}
+
+
+.menu-icon
+{
+	display: none;
+}
+@media (max-width: 800px)
+{
+	.menu-icon
+	{
+		display: block;
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-top: 45px;
+	}
+
+	header nav
+	{
+		position: absolute;
+		top: 83px;
+		left: 0;
+		height: 268px;
+		background:linear-gradient(to top, #ff66efe6,#ff66efe6);;
+		width:100%; 
+		display:none;	
+	}
+
+	header nav ul
+	{
+		flex-direction: column;
+	
+	}
+
+	header nav ul li
+	{
+		margin-bottom: 15px;
+	}
+
+	#qs .contenedor-qs
+	{
+		flex-direction:column;
+	}
+	
+	#qs img
+	{
+		width:100%;
+	}
+
+	#qs .texto
+	{
+		width:100%;
+	}
+
+	.contenedor-servicios
+	{
+		flex-direction:column;		
+	}
+
+	.servicio
+	{
+		width:82%;
+		padding: 34px 30px 69px 30px;
+	}
+
+	.icono
+	{
+		margin-top:23px;
+	}
+	
+	h3
+	{
+		font-size:43px;
+	}
+
+	.contenedor-cirujanos
+	{
+		flex-direction:column;
+	}
+	
+	#cirujanos .item
+	{
+		width: 100%;
+	}
+
+	.item ul
+	{
+		padding:0;
+	}
+
+	#consultas form
+	{
+		width:100%;
+		flex-direction:column;
+	}
+
+	input[type="text"], input [type="email"]
+	{
+		width:100%;
+	}
+
+	#contacto .contenedor-contacto
+	{
+		flex-direction:column;
+	}
+
+	#contacto .contactos
+	{
+		width:100%;
+	}
+
+	#contacto img
+	{
+		width: 100px;
+		height: 90px;
+		display:block;
+		margin:auto;
+	}		
+
+	footer .contenedor
+	{
+		width:100%;
+	}
+
+	#whatsapp
+	{
+		position: fixed;
+		top: 90%;
+		left: 1%;
+	}
+	
+}
+
+
+@media(min-width:600px) and (max-width:800px)
+{
+	header
+	{
+		height:70vh;
+	}
+
+	.servicio
+	{
+		width:57%;
+		padding: 34px 30px 69px 30px;
+		margin:auto;
+		margin-bottom:45px;
+
+}
